@@ -1,0 +1,18 @@
+AzureSentinel:
+  Workspaces:
+    # Workspace used if you don't explicitly name a workspace when creating WorkspaceConfig
+    # Specifying values here overrides config.json settings unless you explicitly load
+    # WorkspaceConfig with config_file parameter (WorkspaceConfig(config_file="../config.json"))
+    Default:
+      TenantId: '58557901-93e6-43a0-9f65-f9223c2c8ef8'
+      WorkspaceId: '8afc7c07-36f4-42e4-b367-a769e1a73188'
+    # To use these launch with an explict name - WorkspaceConfig(workspace_name="Workspace2")
+    Workspace2:
+      # WorkspaceId: "xxxxxxx"
+      # TenantId: "xxxxxxx"
+QueryDefinitions:
+  # Add paths to folders containing custom query definitions here
+  Custom:
+    # - /home/myuser/queries
+
+
